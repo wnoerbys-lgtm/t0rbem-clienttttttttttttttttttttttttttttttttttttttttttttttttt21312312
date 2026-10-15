@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "paytracker",
+  "version": "${version}",
+  "name": "Donut Pay Tracker",
+  "description": "Tracks incoming Donut SMP payments and displays qualifying payers.",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.codex.paytracker.PayTrackerClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "=1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
